@@ -10,6 +10,6 @@ python:
   - "3.6-dev" # 3.6 development branch
   - "nightly" # currently points to 3.7-dev
 # command to install
-install: "pip install ."
+install: "python setup.py install"
 # command to run tests
-script: pytest
+script: "pytest test/"
