@@ -1,19 +1,13 @@
 """
 """
 
-# Native
 import argparse
 import multiprocessing
 import importlib
 
-# 3rd-Party
-
-# Proprietary
-
-
 # Guard against imports
 if not (__name__ == '__main__'):
-    sys.exit(0)
+    raise Exception("PySpawner cannot be imported")
 
 
 __VERSION__ = '0.0.1'
