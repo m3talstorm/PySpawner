@@ -12,7 +12,7 @@ Simple Python script that will spawn a given number of instances of the provided
 ~~~ bash
 git clone https://github.com/m3talstorm/PySpawner
 cd PySpawner/
-python setup.py install
+pip install .
 ~~~
 
 ## Usage
